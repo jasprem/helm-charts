@@ -110,7 +110,7 @@ hostPID: true
 
 # Mount the node's root file system (/) at /host/root in the container
 hostRootFsMount:
-  enabled: true
+  enabled: false
   # Defines how new mounts in existing mounts on the node or in the container
   # are propagated to the container or node, respectively. Possible values are
   # None, HostToContainer, and Bidirectional. If this field is omitted, then
